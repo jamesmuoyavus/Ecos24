@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/title_activity_general_setting"
+        android:key="GeneralSettings" >
+
+        <EditTextPreference
+            android:key="@string/KeyUserNamePref"
+            android:title="@string/pref_userName_display_name"
+            android:icon="@drawable/ic_user"
+            android:paddingLeft="@dimen/preference_icon_minWidth"
+            android:defaultValue="@string/userName"
+            android:summary="@string/userName" />
+        <EditTextPreference
+            android:key="@string/KeyUserImagePref"
+            android:title="@string/pref_userImage_display_Image"
+            android:icon="@drawable/ic_user_image"
+            android:defaultValue="@string/userName"
+            android:summary="@string/userName" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_about_setting"
+        android:key="AboutSetting" >
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_musicPlayer"
+            android:title="@string/musicPlayer"
+            android:icon="@drawable/ic_headset" />
+        <item
+            android:id="@+id/nav_hostMusic"
+            android:title="@string/hostMusic"
+            android:icon="@drawable/ic_audio" />
+        <item
+            android:id="@+id/nav_speakerMenu"
+            android:title="@string/speakerMode"
+            android:icon="@drawable/ic_speaker"  />
+    </group>
+
+    <item android:title="@string/extra" >
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="@string/setting"
+                android:icon="@drawable/ic_setting"/>
+
+            <item
+                android:id="@+id/nav_quit"
+                android:title="@string/quit"
+                android:icon="@drawable/ic_quit"/>
+        </menu>
+    </item>
+
+</menu>

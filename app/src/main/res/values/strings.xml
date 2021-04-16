@@ -1,0 +1,53 @@
+<resources>
+    <!-- Main App Name -->
+    <string name="app_name">SoundBash</string>
+
+    <!-- SideFloatingMenu_Header.xml-->
+    <string name="userImageDesc">Application User Profile Image</string>
+
+    <!-- App_Main_Screen.xml-->
+    <string name="mainScreen">Welcome To the App</string>
+
+    <!-- OverFlowMenu.xml-->
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+
+    <!-- SideFloatingMenu.xml-->
+    <string name="extra">Extra</string>
+    <string name="setting">Setting</string>
+    <string name="quit">Quit</string>
+
+    <!-- BottomNavigationMenu.xml-->
+    <string name="musicPlayer">Music Player</string>
+    <string name="hostMusic">Host Music</string>
+    <string name="speakerMode">Speaker Mode</string>
+
+    <!-- MainActivity.java -->
+    <string name="openDrawer">drawer open</string>
+    <string name="closeDrawer">drawer close</string>
+
+    <!-- Music -->
+    <string name="btBck"><![CDATA[|<]]></string>
+    <string name="btFbck"><![CDATA[<<]]></string>
+    <string name="btFF"><![CDATA[>>]]></string>
+    <string name="btNxt"><![CDATA[>|]]></string>
+    <string name="btPly">||</string>
+    <string name="artDesc">Track Art For Song</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+
+    <!-- ////////////////////SETTINGS//////////////////////-->
+    <string name="title_activity_settings">Settings</string>
+    <!-- Settings Key's Used -->
+    <string name="KeyUserImagePref">UserImagePref</string>
+    <string name="KeyUserNamePref">UserNamePref</string>
+    <!-- General settings -->
+    <string name="title_activity_general_setting">General</string>
+    <string name="pref_userName_display_name">User Name</string>
+    <string name="pref_userImage_display_Image">Display Image</string>
+    <string name="userName">Divyang Tyagi</string>
+    <!-- General settings -->
+    <string name="title_about_setting">About</string>
+</resources>

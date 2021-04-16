@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/header_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="20dp" >
+
+    <com.divyang.v2.SettingsPack.RoundedImageView
+        android:id="@+id/sideFloatingMenu_userImage"
+        android:contentDescription="@string/userImageDesc"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/divyangimg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sideFloatingMenu_userName"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/userName" />
+</LinearLayout>

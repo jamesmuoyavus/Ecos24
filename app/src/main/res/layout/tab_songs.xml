@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_SongsTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+</RelativeLayout>-->
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sothree="http://schemas.android.com/tools"
+    tools:context="com.divyang.v2.TabsContent.SongsTab"
+    android:id="@+id/main_slidingUpPannel_songTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="@dimen/bottom_panel_height"
+    sothree:umanoShadowHeight="4dp"
+    app:umanoFadeColor="@color/colorPrimaryDark"
+    app:umanoFlingVelocity="8" >
+
+    <!-- For Main Layout -->
+    <include layout="@layout/tab_songs_mainlayout" />
+
+    <!-- For SlidUp Panel -->
+    <include layout="@layout/slidinguppanel" />
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

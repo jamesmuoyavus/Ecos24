@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_musicPlayer"
+        android:title="@string/musicPlayer"
+        android:icon="@drawable/ic_headset" />
+    <item
+        android:id="@+id/nav_hostMusic"
+        android:title="@string/hostMusic"
+        android:icon="@drawable/ic_audio" />
+    <item
+        android:id="@+id/nav_speakerMenu"
+        android:title="@string/speakerMode"
+        android:icon="@drawable/ic_speaker"  />
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main_Pannel" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/size_song_listView"
+            android:layout_width="300sp"
+            android:layout_height="match_parent"
+            android:elevation="7sp"
+            android:maxLines="1"
+            android:padding="9sp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/song_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<ListView
+        android:id="@+id/song_listView"
+        style="@android:style/Widget.Material.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:smoothScrollbar="true" />-->
+
+</LinearLayout>
